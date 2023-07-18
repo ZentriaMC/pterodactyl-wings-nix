@@ -8,10 +8,10 @@ buildGo120Module rec {
     owner = "pterodactyl";
     repo = "wings";
     rev = "${version}";
-    sha256 = "sha256-1GccS9E5Cc4pYUBue9qwFj+2an22Pg4PFp8JwU2EIdA=";
+    sha256 = "sha256-lDJ0/yxmS7+9TVp3YpEdQQb12R4i2GyQ0w6RXoC5NHs=";
   };
 
-  vendorSha256 = "sha256-1uiaE1E1poILQLHDLujLdwE576fFMq2rwbd7GcBV2j8=";
+  vendorSha256 = "sha256-VApv+VSot/GmOyU3pBlOvHYG0oE3fCtTxN5F3PsYYf0=";
   subPackages = [ "." ];
 
   ldflags = [
